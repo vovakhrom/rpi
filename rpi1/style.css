@@ -1,0 +1,583 @@
+@import './font/fonts.css';
+
+body{
+font-family: "Gotham Rounded";
+}
+.header{
+    position: absolute;
+    width: 100%;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 39px;
+}
+.navigation{
+    width: 100%;
+    max-width: 765px;
+}
+.navigation_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation_item{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.navigation_item:active{
+    color: rgb(179, 177, 88);
+}
+.navigation_item:hover{
+text-decoration: underline;
+}
+/*FIRST-------------------------------------------------------------*/
+.section-first{
+    background-image: url(./img/fon.png);
+    /*min-height: 100%;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section-first_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 128px;
+}
+.section-first_content{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.section-first_title{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+.section-first_title2{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    text-transform: lowercase;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.section-first_content-btn{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 166px;
+    height: 49px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #16a085;
+    color: white;
+}
+
+.section-first_content-btn:hover {
+  transform: scale(1.2);
+  }
+.section-first_content-btn:active {
+    filter: invert(100%);
+  }
+.section-first_social{
+    position:absolute;
+    bottom: 25px;
+}
+.twitter:hover,.flicker:hover,.dribble:hover{
+    transform: rotateX(40deg);
+}
+.flicker{
+    padding: 0 15px;
+}
+/*SECOND-------------------------------------------------------------------*/
+ 
+.section-second{
+    /*min-width: 100%;*/
+    height: 494px;
+    background-image: url(./img/greyfon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 494px;
+}
+.container_second{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.section-second_wrapperall{
+    padding: 0 128px;
+    display: flex;
+    flex-direction: column;
+    height: 494px;
+    font-weight: bold;
+}
+.section-second_title{
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #16a085;
+    max-width: 384px;
+    text-transform: uppercase;
+    padding-top: 115px;
+}
+.section-second_subtitle{
+    color: #373737;
+    letter-spacing: 2px;
+    line-height: 24px;
+    padding-top: 50px;
+    font-weight: normal;
+    width: 513px;
+    font-size: 12px;
+}
+.textboldfirst{
+    font-weight: bold;
+}
+.section-second_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-second_btn:hover {
+    border-radius: 70%;
+  }
+.section-second_btn:active {
+    background: rgb(117, 24, 121);
+  }
+.iphone{
+    position:absolute;
+    margin-top: 90px;
+    right: 128px;
+}
+/*THIRD-------------------------------------------------------------------*/
+.section-third{
+    background-image: url(./img/whitefon.png);
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 558px;
+    height: 558px;
+}
+.containerthird{
+    min-width: 1280px;
+    margin: 0 auto;
+}
+.section-third_wrapperall{
+    height: 558px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 128px;
+}
+.flatiphone{
+    margin-top: 145px;
+}
+.section-third_wrapper{
+    font-weight: bold;
+    position:absolute;
+    right:128px;
+}
+.section-third_wrapper_title{
+    padding-top: 145px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #16a085;
+    text-transform: uppercase;
+}
+.section-third_wrapper_title2{
+    color: #373737;
+    padding-top: 45px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-weight: normal;
+}
+.textboldsecond{
+    font-weight: bold;
+} 
+.section-third_wrapper_btn{
+    background-color: #16a085;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    height: 51px;
+    margin-top: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section-third_wrapper_btn:hover {
+    transform: scale(0.7);
+  }
+.section-third_wrapper_btn:active {
+    background: rgb(7, 137, 170);
+  }
+.switching{
+    display: flex;
+    margin-top: 48px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    font-weight: bold;
+}
+.leftarrow:hover{
+    transform: scale(1.2);
+ }
+.arrows{
+    display: flex;
+}
+.arrowright{
+    margin-left: 10px;
+}
+.arrowleft{
+     margin-right: 10px;
+}
+.rightarrow:hover{
+    transform: scale(1.2);
+ }
+/*COMMUNITY-------------------------------------------------------------*/
+.section_ourcommunity{
+    background-image: url(./img/greyfon.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    background-size: 100% 483px;
+    height: 483px;
+}
+.section_ourcomminuty_container{
+    min-width: 1280px;
+    margin: 0 auto;
+}
+.section_ourcomminuty_wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 128px;
+    position: relative;
+    height: 483px;
+}
+.section_ourcomminuty_arrows{
+    padding-top: 93px;
+}
+.section_ourcomminuty_leftarrow{
+    position: absolute;
+    right: 153px;
+}
+.section_ourcomminuty_leftarrow:hover{
+    transform: scale(1.2);
+ }
+.section_ourcomminuty_rightarrow{
+    position: absolute;
+    right: 128px;
+}
+.section_ourcomminuty_rightarrow:hover{
+    transform: scale(1.2);
+ }
+.greencamera{
+    padding-left: 58px;
+    padding-top: 165px;
+}
+.section_ourcommunity_text_title{
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: bold;
+    padding-top: 33px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.section_ourcommunity_text_subtitle{
+    text-align: center;
+    color: #373737;
+    width: 177px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 28px;
+    font-weight: 500;   
+}
+.section_ourcommunity_photo{
+    display: flex;
+    align-items: center;
+}
+.bus{
+    position: absolute;
+    right: 528px;
+}
+.leafs{
+    position: absolute;
+    right: 128px;
+}
+/*SUBSCRIBE---------------------------------------------------------------------*/
+.section_subscribe_to_us{
+    background-image: url(./img/telephonfon.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    background-size: 100% 100%;
+    height: 100vh;
+    align-items: center;
+}
+.section_subscribe_to_us_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.section_subscribe_to_us_text{
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.section_subscribe_to_us_inputandmark{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.section_subscribe_to_us_input{
+    width: 280px;
+    height: 60px;
+    padding-left: 20px;
+}
+input::-webkit-input-placeholder { color: black;
+    font-weight: 500;
+ }
+ .section_subscribe_to_us_input{
+    text-transform: uppercase;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 0px;
+}
+ .section_subscribe_to_us_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    width: 63px;
+    height: 62px;
+    background-color: #16a085;   
+}
+.section_subscribe_to_us_btn:hover{
+    box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;
+    transform: translateX(-7px);
+ }
+ .section_subscribe_to_us_btn:active{
+    background: rgb(252, 8, 8);
+}
+/*DOWNLOAD---------------------------------------------------------------------------*/
+.section_download{
+    background-image: url(./img/greyfon.png);
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 396px;
+    height: 396px;
+}
+.download_container{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+.download_text{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #373737;
+   font-weight: bold;
+   margin-top: 92px;
+}
+.download_subtitle{
+    text-align: center;
+    color: #373737;
+    width: 877px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-top: 18px;
+}
+.download_btns{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.applestore_btn{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #1abc9c;
+    text-decoration: none;
+    width: 240px;
+    height: 56px;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+.applestore_btn:hover {
+  background-color: #221fc4; 
+  color: rgb(253, 251, 251);
+  }
+.applestore_btn:active {
+    opacity: 0.6;
+  }
+.applestoreicon_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    width: 56px;
+    height: 56px;
+    background-color: #16a085; 
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+.applestoreicon_btn:active {
+    opacity: 0.6; 
+}
+.applestoreicon_btn:hover {
+  background-color: #221fc4; 
+  color: rgb(252, 252, 252);
+}
+.playstore_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding-left: 20px;
+    background-color: #1abc9c;
+    text-decoration: none;
+    width: 240px;
+    height: 56px;
+    color: white;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+.playstore_btn:hover {
+  background-color: #221fc4; 
+  color: rgb(255, 255, 255);
+  }
+.playstore_btn:active {
+    opacity: 0.6; 
+  }
+.playstoreicon_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    width: 56px;
+    height: 56px;
+    background-color: #16a085;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+.playstoreicon_btn:active {
+    opacity: 0.6; 
+}
+
+.playstoreicon_btn:hover {
+  background-color: #221fc4; 
+  color: rgb(255, 255, 255);
+}
+/*FOOTER--------------------------------------------------------------------*/
+.container_footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 131px;
+}
+.footer_wrapper{
+    padding-left:128px;;
+     font-size: 14px;
+     letter-spacing: 2px;
+     color: #373737;
+     font-weight: bold;
+ }
+.footer_list{
+    display: flex;
+}
+.footer_item1{
+    padding-right: 10px;
+}
+.footer_item1:hover {
+    transform: scale(1.2);
+  }
+.footer_item2{
+    color: #16a085;
+ }
+.footer_item3{
+    padding: 0 10px;
+}
+.footer_item3:hover{
+    transform: scale(1.2);
+  }
+.footer_item4{
+    color: #16a085;
+}
+.footer_item5{
+    padding-left: 10px;
+}
+.footer_item5:hover{
+    transform: scale(1.2);
+  }
+.copyright{
+    padding-top: 25px;
+}
+.footercamera{
+    position:absolute;
+    right: 128px;
+}
+/*-----------------------------------------------*/
+ 
+
